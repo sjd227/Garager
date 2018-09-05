@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B869F12140992700660988 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B869F02140992700660988 /* AppDelegate.m */; };
+		58B869F42140992700660988 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B869F32140992700660988 /* ViewController.m */; };
+		58B869F72140992700660988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B869F52140992700660988 /* Main.storyboard */; };
+		58B869F92140992900660988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B869F82140992900660988 /* Assets.xcassets */; };
+		58B869FC2140992900660988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B869FA2140992900660988 /* LaunchScreen.storyboard */; };
+		58B869FF2140992900660988 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B869FE2140992900660988 /* main.m */; };
+		58B86A092140992900660988 /* GaragerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B86A082140992900660988 /* GaragerTests.m */; };
+		58B86A142140992900660988 /* GaragerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B86A132140992900660988 /* GaragerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58B86A052140992900660988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B869E42140992600660988 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B869EB2140992700660988;
+			remoteInfo = Garager;
+		};
+		58B86A102140992900660988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B869E42140992600660988 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B869EB2140992700660988;
+			remoteInfo = Garager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58B869EC2140992700660988 /* Garager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B869EF2140992700660988 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58B869F02140992700660988 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58B869F22140992700660988 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58B869F32140992700660988 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58B869F62140992700660988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58B869F82140992900660988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58B869FB2140992900660988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58B869FD2140992900660988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B869FE2140992900660988 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58B86A042140992900660988 /* GaragerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaragerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B86A082140992900660988 /* GaragerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaragerTests.m; sourceTree = "<group>"; };
+		58B86A0A2140992900660988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B86A0F2140992900660988 /* GaragerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaragerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B86A132140992900660988 /* GaragerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaragerUITests.m; sourceTree = "<group>"; };
+		58B86A152140992900660988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B869E92140992700660988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86A012140992900660988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86A0C2140992900660988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B869E32140992600660988 = {
+			isa = PBXGroup;
+			children = (
+				58B869EE2140992700660988 /* Garager */,
+				58B86A072140992900660988 /* GaragerTests */,
+				58B86A122140992900660988 /* GaragerUITests */,
+				58B869ED2140992700660988 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B869ED2140992700660988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B869EC2140992700660988 /* Garager.app */,
+				58B86A042140992900660988 /* GaragerTests.xctest */,
+				58B86A0F2140992900660988 /* GaragerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B869EE2140992700660988 /* Garager */ = {
+			isa = PBXGroup;
+			children = (
+				58B869EF2140992700660988 /* AppDelegate.h */,
+				58B869F02140992700660988 /* AppDelegate.m */,
+				58B869F22140992700660988 /* ViewController.h */,
+				58B869F32140992700660988 /* ViewController.m */,
+				58B869F52140992700660988 /* Main.storyboard */,
+				58B869F82140992900660988 /* Assets.xcassets */,
+				58B869FA2140992900660988 /* LaunchScreen.storyboard */,
+				58B869FD2140992900660988 /* Info.plist */,
+				58B869FE2140992900660988 /* main.m */,
+			);
+			path = Garager;
+			sourceTree = "<group>";
+		};
+		58B86A072140992900660988 /* GaragerTests */ = {
+			isa = PBXGroup;
+			children = (
+				58B86A082140992900660988 /* GaragerTests.m */,
+				58B86A0A2140992900660988 /* Info.plist */,
+			);
+			path = GaragerTests;
+			sourceTree = "<group>";
+		};
+		58B86A122140992900660988 /* GaragerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58B86A132140992900660988 /* GaragerUITests.m */,
+				58B86A152140992900660988 /* Info.plist */,
+			);
+			path = GaragerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B869EB2140992700660988 /* Garager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B86A182140992A00660988 /* Build configuration list for PBXNativeTarget "Garager" */;
+			buildPhases = (
+				58B869E82140992700660988 /* Sources */,
+				58B869E92140992700660988 /* Frameworks */,
+				58B869EA2140992700660988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Garager;
+			productName = Garager;
+			productReference = 58B869EC2140992700660988 /* Garager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58B86A032140992900660988 /* GaragerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B86A1B2140992A00660988 /* Build configuration list for PBXNativeTarget "GaragerTests" */;
+			buildPhases = (
+				58B86A002140992900660988 /* Sources */,
+				58B86A012140992900660988 /* Frameworks */,
+				58B86A022140992900660988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B86A062140992900660988 /* PBXTargetDependency */,
+			);
+			name = GaragerTests;
+			productName = GaragerTests;
+			productReference = 58B86A042140992900660988 /* GaragerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58B86A0E2140992900660988 /* GaragerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B86A1E2140992A00660988 /* Build configuration list for PBXNativeTarget "GaragerUITests" */;
+			buildPhases = (
+				58B86A0B2140992900660988 /* Sources */,
+				58B86A0C2140992900660988 /* Frameworks */,
+				58B86A0D2140992900660988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B86A112140992900660988 /* PBXTargetDependency */,
+			);
+			name = GaragerUITests;
+			productName = GaragerUITests;
+			productReference = 58B86A0F2140992900660988 /* GaragerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B869E42140992600660988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Steven Dourmashkin";
+				TargetAttributes = {
+					58B869EB2140992700660988 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					58B86A032140992900660988 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 58B869EB2140992700660988;
+					};
+					58B86A0E2140992900660988 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 58B869EB2140992700660988;
+					};
+				};
+			};
+			buildConfigurationList = 58B869E72140992600660988 /* Build configuration list for PBXProject "Garager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58B869E32140992600660988;
+			productRefGroup = 58B869ED2140992700660988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B869EB2140992700660988 /* Garager */,
+				58B86A032140992900660988 /* GaragerTests */,
+				58B86A0E2140992900660988 /* GaragerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B869EA2140992700660988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B869FC2140992900660988 /* LaunchScreen.storyboard in Resources */,
+				58B869F92140992900660988 /* Assets.xcassets in Resources */,
+				58B869F72140992700660988 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86A022140992900660988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86A0D2140992900660988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B869E82140992700660988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B869F42140992700660988 /* ViewController.m in Sources */,
+				58B869FF2140992900660988 /* main.m in Sources */,
+				58B869F12140992700660988 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86A002140992900660988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B86A092140992900660988 /* GaragerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86A0B2140992900660988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B86A142140992900660988 /* GaragerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58B86A062140992900660988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B869EB2140992700660988 /* Garager */;
+			targetProxy = 58B86A052140992900660988 /* PBXContainerItemProxy */;
+		};
+		58B86A112140992900660988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B869EB2140992700660988 /* Garager */;
+			targetProxy = 58B86A102140992900660988 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58B869F52140992700660988 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B869F62140992700660988 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58B869FA2140992900660988 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B869FB2140992900660988 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B86A162140992A00660988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B86A172140992A00660988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B86A192140992A00660988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Garager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garager.Garager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58B86A1A2140992A00660988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Garager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garager.Garager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58B86A1C2140992A00660988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaragerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garager.GaragerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garager.app/Garager";
+			};
+			name = Debug;
+		};
+		58B86A1D2140992A00660988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaragerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garager.GaragerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garager.app/Garager";
+			};
+			name = Release;
+		};
+		58B86A1F2140992A00660988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaragerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garager.GaragerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Garager;
+			};
+			name = Debug;
+		};
+		58B86A202140992A00660988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaragerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garager.GaragerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Garager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B869E72140992600660988 /* Build configuration list for PBXProject "Garager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B86A162140992A00660988 /* Debug */,
+				58B86A172140992A00660988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B86A182140992A00660988 /* Build configuration list for PBXNativeTarget "Garager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B86A192140992A00660988 /* Debug */,
+				58B86A1A2140992A00660988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B86A1B2140992A00660988 /* Build configuration list for PBXNativeTarget "GaragerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B86A1C2140992A00660988 /* Debug */,
+				58B86A1D2140992A00660988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B86A1E2140992A00660988 /* Build configuration list for PBXNativeTarget "GaragerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B86A1F2140992A00660988 /* Debug */,
+				58B86A202140992A00660988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B869E42140992600660988 /* Project object */;
+}
