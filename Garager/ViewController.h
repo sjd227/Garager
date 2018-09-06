@@ -7,9 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BLEHandler.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<BLEHandlerDelegate>
 
+// IBOUTLETS:
+@property (weak, nonatomic) IBOutlet UILabel *bleMessage;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *bleActivityIndicator;
+@property (weak, nonatomic) IBOutlet UIButton *lightButton;
+@property (weak, nonatomic) IBOutlet UIButton *garageButton;
+@property (weak, nonatomic) IBOutlet UIView *garageBackView;
+@property (weak, nonatomic) IBOutlet UIView *lightBackView;
+
+// IBACTIONS:
+- (IBAction)lightButtonTapped:(UIButton *)sender;
+- (IBAction)garageButtonTapped:(UIButton *)sender;
+
+// CLASS PROPERTIES:
+@property BLEHandler *bleHandler;
 
 @end
+
 

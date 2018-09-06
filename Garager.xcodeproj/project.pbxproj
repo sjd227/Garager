@@ -15,6 +15,7 @@
 		58B869FF2140992900660988 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B869FE2140992900660988 /* main.m */; };
 		58B86A092140992900660988 /* GaragerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B86A082140992900660988 /* GaragerTests.m */; };
 		58B86A142140992900660988 /* GaragerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B86A132140992900660988 /* GaragerUITests.m */; };
+		58B86A232140D0ED00660988 /* BLEHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B86A222140D0ED00660988 /* BLEHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		58B86A0F2140992900660988 /* GaragerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaragerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B86A132140992900660988 /* GaragerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaragerUITests.m; sourceTree = "<group>"; };
 		58B86A152140992900660988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B86A212140D0ED00660988 /* BLEHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEHandler.h; sourceTree = "<group>"; };
+		58B86A222140D0ED00660988 /* BLEHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				58B869FA2140992900660988 /* LaunchScreen.storyboard */,
 				58B869FD2140992900660988 /* Info.plist */,
 				58B869FE2140992900660988 /* main.m */,
+				58B86A212140D0ED00660988 /* BLEHandler.h */,
+				58B86A222140D0ED00660988 /* BLEHandler.m */,
 			);
 			path = Garager;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B86A232140D0ED00660988 /* BLEHandler.m in Sources */,
 				58B869F42140992700660988 /* ViewController.m in Sources */,
 				58B869FF2140992900660988 /* main.m in Sources */,
 				58B869F12140992700660988 /* AppDelegate.m in Sources */,
@@ -434,7 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96HMJAUXW;
 				INFOPLIST_FILE = Garager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96HMJAUXW;
 				INFOPLIST_FILE = Garager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
